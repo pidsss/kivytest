@@ -1,0 +1,62 @@
+<MainMenuScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp', '30dp', '10dp', 0
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 1, 1, 0.88, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Label:
+            text: 'EL-AID'
+            size_hint_y: None
+            height: self.parent.height * 0.1
+            font_size: '30sp'
+            color: 0, 0, 0, 1  
+        Widget:
+            size_hint_y: None
+            height: '30dp'
+        GridLayout:
+            cols: 1
+            spacing: '4dp'
+            padding: '10dp'
+            size_hint_y: None
+            height: self.minimum_height
+            Button:
+                text: 'Learning Alphabet'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1 
+                on_press: root.manager.current = 'alphabet_menu'
+            Button:
+                text: 'Learning Numbers'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press: root.manager.current = 'learning_numbers_1_25'
+            Button:
+                text: 'Learning Character'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: root.manager.current = 'learning_characters'
+            Button:
+                text: 'Learning Words'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'learning_words'
+            Button:
+                text: 'Learning Phrases'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'learning_phrases'
+            Button:
+                text: 'Learning Paragraphs'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'learning_paragraphs'

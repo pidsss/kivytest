@@ -1,0 +1,558 @@
+<LearningNumbers_1_25>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '1dp'
+        spacing: '1dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Label:
+            text: 'Choose a Number'
+            size_hint_y: None
+            height: '48dp'
+            font_size: '24sp'
+            color: 0, 0, 0, 1  # Black color
+        GridLayout:
+            cols: 5
+            spacing: '10dp'
+            padding: '10dp'
+            Button:
+                text: '1'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1
+                on_press: root.manager.current = 'video_1'
+            Button:
+                text: '2'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: root.manager.current = 'video_2'
+            Button:
+                text: '3'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_3'
+            Button:
+                text: '4'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1
+                on_press: root.manager.current = 'video_4'
+            Button:
+                text: '5'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_5'
+            Button:
+                text: '6'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1
+                on_press: root.manager.current = 'video_6'
+            Button:
+                text: '7'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1
+                on_press: root.manager.current = 'video_7'
+            Button:
+                text: '8'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_8'
+            Button:
+                text: '9'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: root.manager.current = 'video_9'
+            Button:
+                text: '10'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: root.manager.current = 'video_10'
+            Button:
+                text: '11'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1 
+                on_press: root.manager.current = 'video_11'
+            Button:
+                text: '12'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1  
+                on_press: root.manager.current = 'video_12'
+            Button:
+                text: '13'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1 
+                on_press: root.manager.current = 'video_13'
+            Button:
+                text: '14'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_14'
+            Button:
+                text: '15'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: root.manager.current = 'video_15'
+            Button:
+                text: '16'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: root.manager.current = 'video_16'
+            Button:
+                text: '17'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_17'
+            Button:
+                text: '18'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press: root.manager.current = 'video_18'
+            Button:
+                text: '19'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'video_19'
+            Button:
+                text: '20'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_20'
+            Button:
+                text: '21'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: root.manager.current = 'video_21'
+            Button:
+                text: '22'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: root.manager.current = 'video_22'
+            Button:
+                text: '23'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_23'
+            Button:
+                text: '24'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1  
+                on_press: root.manager.current = 'video_24'
+            Button:
+                text: '25'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'video_25'
+            Button:
+                text: '>>'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'video_>>'
+            
+        Button:
+            text: 'BACK'
+            size_hint: 1, None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1 
+            on_press: root.manager.current = 'main_menu'
+
+
+
+<LearningNumbers_1_25>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '1dp'
+        spacing: '1dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Label:
+            text: 'Choose a Number'
+            size_hint_y: None
+            height: '48dp'
+            font_size: '24sp'
+            color: 0, 0, 0, 1  # Black color
+        GridLayout:
+            cols: 5
+            spacing: '10dp'
+            padding: '10dp'
+            Button:
+                text: '1'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1
+                on_press: root.manager.current = 'video_1'
+            Button:
+                text: '2'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: root.manager.current = 'video_2'
+            Button:
+                text: '3'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_3'
+            Button:
+                text: '4'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1
+                on_press: root.manager.current = 'video_4'
+            Button:
+                text: '5'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_5'
+            Button:
+                text: '6'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1
+                on_press: root.manager.current = 'video_6'
+            Button:
+                text: '7'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1
+                on_press: root.manager.current = 'video_7'
+            Button:
+                text: '8'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_8'
+            Button:
+                text: '9'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: root.manager.current = 'video_9'
+            Button:
+                text: '10'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: root.manager.current = 'video_10'
+            Button:
+                text: '11'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1 
+                on_press: root.manager.current = 'video_11'
+            Button:
+                text: '12'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1  
+                on_press: root.manager.current = 'video_12'
+            Button:
+                text: '13'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1 
+                on_press: root.manager.current = 'video_13'
+            Button:
+                text: '14'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_14'
+            Button:
+                text: '15'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: root.manager.current = 'video_15'
+            Button:
+                text: '16'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: root.manager.current = 'video_16'
+            Button:
+                text: '17'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_17'
+            Button:
+                text: '18'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press: root.manager.current = 'video_18'
+            Button:
+                text: '19'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'video_19'
+            Button:
+                text: '20'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_20'
+            Button:
+                text: '21'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: root.manager.current = 'video_21'
+            Button:
+                text: '22'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: root.manager.current = 'video_22'
+            Button:
+                text: '23'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_23'
+            Button:
+                text: '24'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1  
+                on_press: root.manager.current = 'video_24'
+            Button:
+                text: '25'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'video_25'
+            Button:
+                text: '>>'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'video_>>'
+            
+        Button:
+            text: 'BACK'
+            size_hint: 1, None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1 
+            on_press: root.manager.current = 'main_menu'
+
+
+
+<LearningNumbers_1_25>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '1dp'
+        spacing: '1dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Label:
+            text: 'Choose a Number'
+            size_hint_y: None
+            height: '48dp'
+            font_size: '24sp'
+            color: 0, 0, 0, 1  # Black color
+        GridLayout:
+            cols: 5
+            spacing: '10dp'
+            padding: '10dp'
+            Button:
+                text: '1'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1
+                on_press: root.manager.current = 'video_1'
+            Button:
+                text: '2'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: root.manager.current = 'video_2'
+            Button:
+                text: '3'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_3'
+            Button:
+                text: '4'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1
+                on_press: root.manager.current = 'video_4'
+            Button:
+                text: '5'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_5'
+            Button:
+                text: '6'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1
+                on_press: root.manager.current = 'video_6'
+            Button:
+                text: '7'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1
+                on_press: root.manager.current = 'video_7'
+            Button:
+                text: '8'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_8'
+            Button:
+                text: '9'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: root.manager.current = 'video_9'
+            Button:
+                text: '10'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: root.manager.current = 'video_10'
+            Button:
+                text: '11'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1 
+                on_press: root.manager.current = 'video_11'
+            Button:
+                text: '12'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1  
+                on_press: root.manager.current = 'video_12'
+            Button:
+                text: '13'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1 
+                on_press: root.manager.current = 'video_13'
+            Button:
+                text: '14'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_14'
+            Button:
+                text: '15'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: root.manager.current = 'video_15'
+            Button:
+                text: '16'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: root.manager.current = 'video_16'
+            Button:
+                text: '17'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_17'
+            Button:
+                text: '18'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press: root.manager.current = 'video_18'
+            Button:
+                text: '19'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'video_19'
+            Button:
+                text: '20'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_20'
+            Button:
+                text: '21'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: root.manager.current = 'video_21'
+            Button:
+                text: '22'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: root.manager.current = 'video_22'
+            Button:
+                text: '23'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_23'
+            Button:
+                text: '24'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1  
+                on_press: root.manager.current = 'video_24'
+            Button:
+                text: '25'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'video_25'
+            Button:
+                text: '>>'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'video_>>'
+            
+        Button:
+            text: 'BACK'
+            size_hint: 1, None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1 
+            on_press: root.manager.current = 'main_menu'

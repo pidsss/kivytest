@@ -1,0 +1,1917 @@
+<AlphabetMenuScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '4dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Label:
+            text: 'Choose a Letter:'
+            size_hint_y: None
+            height: '48dp'
+            font_size: '24sp'
+            color: 0, 0, 0, 1
+        GridLayout:
+            cols: 5
+            spacing: '10dp'
+            padding: '10dp'
+            Button:
+                text: 'A'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1
+                on_press: root.manager.current = 'video_a'
+            Button:
+                text: 'B'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: root.manager.current = 'video_b'
+            Button:
+                text: 'C'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_c'
+            Button:
+                text: 'D'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1
+                on_press: root.manager.current = 'video_d'
+            Button:
+                text: 'E'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1
+                on_press: root.manager.current = 'video_e'
+            Button:
+                text: 'F'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_f'
+            Button:
+                text: 'G'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: root.manager.current = 'video_g'
+            Button:
+                text: 'H'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: root.manager.current = 'video_h'
+            Button:
+                text: 'I'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1 
+                on_press: root.manager.current = 'video_i'
+            Button:
+                text: 'J'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1  
+                on_press: root.manager.current = 'video_j'
+            Button:
+                text: 'K'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1 
+                on_press: root.manager.current = 'video_k'
+            Button:
+                text: 'L'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_l'
+            Button:
+                text: 'M'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: root.manager.current = 'video_m'
+            Button:
+                text: 'N'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: root.manager.current = 'video_n'
+            Button:
+                text: 'O'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_o'
+            Button:
+                text: 'P'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press: root.manager.current = 'video_p'
+            Button:
+                text: 'Q'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'video_q'
+            Button:
+                text: 'R'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_r'
+            Button:
+                text: 'S'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: root.manager.current = 'video_s'
+            Button:
+                text: 'T'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: root.manager.current = 'video_t'
+            Button:
+                text: 'U'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_u'
+            Button:
+                text: 'V'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1  
+                on_press: root.manager.current = 'video_v'
+            Button:
+                text: 'W'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'video_w'
+            Button:
+                text: 'X'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_x'
+            Button:
+                text: 'Y'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1 
+                on_press: root.manager.current = 'video_y'
+            Button:
+                text: 'Z'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0.5, 0.5, 0, 1  
+                on_press: root.manager.current = 'video_z'
+
+
+        # Vowel button 
+        Button:
+            text: 'Vowel'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1 
+            on_press: root.manager.current = 'vowel_menu'
+        
+        # Consonant button 
+        Button:
+            text: 'Consonant'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1  
+            on_press: root.manager.current = 'consonant_menu'
+
+        # Back button        
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1  
+            on_press: root.manager.current = 'main_menu'
+
+
+
+
+
+<VowelScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '4dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Label:
+            text: 'Choose a Vowel Letter:'
+            size_hint_y: None
+            height: '48dp'
+            font_size: '24sp'
+            color: 0, 0, 0, 1
+        GridLayout:
+            cols: 5
+            spacing: '10dp'
+            padding: '10dp'
+            Button:
+                text: 'A'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1
+                on_press: root.manager.current = 'video_a'
+            Button:
+                text: 'E'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1
+                on_press: root.manager.current = 'video_e'
+            Button:
+                text: 'I'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1 
+                on_press: root.manager.current = 'video_i'
+            Button:
+                text: 'O'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_o'
+            Button:
+                text: 'U'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_u'
+
+
+        # Back button
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1 
+            on_press: root.manager.current = 'alphabet_menu'
+
+
+
+
+
+
+<ConsonantScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '4dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Label:
+            text: 'Choose a Consonant Letter:'
+            size_hint_y: None
+            height: '48dp'
+            font_size: '24sp'
+            color: 0, 0, 0, 1
+        GridLayout:
+            cols: 5
+            spacing: '10dp'
+            padding: '10dp'
+            Button:
+                text: 'B'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: root.manager.current = 'video_b'
+            Button:
+                text: 'C'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0, 1, 1  
+                on_press: root.manager.current = 'video_c'
+            Button:
+                text: 'D'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1
+                on_press: root.manager.current = 'video_d'
+            Button:
+                text: 'F'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_f'
+            Button:
+                text: 'G'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: root.manager.current = 'video_g'
+            Button:
+                text: 'H'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: root.manager.current = 'video_h'
+            Button:
+                text: 'J'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1  
+                on_press: root.manager.current = 'video_j'
+            Button:
+                text: 'K'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1 
+                on_press: root.manager.current = 'video_k'
+            Button:
+                text: 'L'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_l'
+            Button:
+                text: 'M'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: root.manager.current = 'video_m'
+            Button:
+                text: 'N'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: root.manager.current = 'video_n'
+            Button:
+                text: 'P'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press: root.manager.current = 'video_p'
+            Button:
+                text: 'Q'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'video_q'
+            Button:
+                text: 'R'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_r'
+            Button:
+                text: 'S'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: root.manager.current = 'video_s'
+            Button:
+                text: 'T'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: root.manager.current = 'video_t'
+            Button:
+                text: 'V'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.5, 0, 1  
+                on_press: root.manager.current = 'video_v'
+            Button:
+                text: 'W'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 1, 0.8, 0, 1  
+                on_press: root.manager.current = 'video_w'
+            Button:
+                text: 'X'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 0.5, 0.5, 1 
+                on_press: root.manager.current = 'video_x'
+            Button:
+                text: 'Y'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0, 1, 0, 1 
+                on_press: root.manager.current = 'video_y'
+            Button:
+                text: 'Z'
+                size_hint_y: None
+                height: '48dp'
+                background_color: 0.5, 0.5, 0, 1  
+                on_press: root.manager.current = 'video_z'
+        # Back button        
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1  
+            on_press: root.manager.current = 'alphabet_menu'
+
+
+
+
+
+
+
+
+<VideoAScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1  
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_a
+            source: 'vid_sample.gif'
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1 
+                on_press: video_a.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: video_a.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1  
+                on_press:
+                    video_a.state = 'stop'
+                    video_a.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_a.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1  
+            on_press:
+                video_a.state = 'stop' 
+                root.manager.current = 'alphabet_menu'
+
+
+<VideoBScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_b
+            source: 'vid_sample_b.mp4'
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1 
+                on_press: video_b.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: video_b.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press:
+                    video_b.state = 'stop'
+                    video_b.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_b.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1  
+            on_press:
+                video_b.state = 'stop' 
+                root.manager.current = 'alphabet_menu'
+
+<VideoCScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_c
+            source: 'vid_sample_c.mp4'  
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: video_c.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: video_c.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press:
+                    video_c.state = 'stop'
+                    video_c.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_c.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1  
+            on_press:
+                video_c.state = 'stop'
+                root.manager.current = 'alphabet_menu'
+
+
+<VideoDScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_d
+            source: 'vid_sample_d.mp4'
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: video_d.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: video_d.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press:
+                    video_d.state = 'stop'
+                    video_d.position = 0  
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_d.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1  
+            on_press:
+                video_d.state = 'stop' 
+                root.manager.current = 'alphabet_menu'
+
+
+<VideoEScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1  
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_e
+            source: 'vid_sample_e.mp4' 
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: video_e.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: video_e.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1
+                on_press:
+                    video_e.state = 'stop'
+                    video_e.position = 0  
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_e.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1  
+            on_press:
+                video_e.state = 'stop'  
+                root.manager.current = 'alphabet_menu'
+
+<VideoFScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_f
+            source: 'vid_sample_f.mp4'  
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: video_f.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: video_f.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1  
+                on_press:
+                    video_f.state = 'stop'
+                    video_f.position = 0  
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_f.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1  
+            on_press:
+                video_f.state = 'stop'  
+                root.manager.current = 'alphabet_menu'
+
+<VideoGScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_g
+            source: 'vid_sample_g.mp4'  
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1
+                on_press: video_g.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: video_g.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press:
+                    video_g.state = 'stop'
+                    video_g.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_g.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1 
+            on_press:
+                video_g.state = 'stop' 
+                root.manager.current = 'alphabet_menu'
+<VideoHScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_h
+            source: 'vid_sample_h.mp4' 
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1 
+                on_press: video_h.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1
+                on_press: video_h.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1  
+                on_press:
+                    video_h.state = 'stop'
+                    video_h.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_h.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1 
+            on_press:
+                video_h.state = 'stop' 
+                root.manager.current = 'alphabet_menu'
+
+<VideoIScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1  
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_i
+            source: 'vid_sample_i.mp4'  
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1 
+                on_press: video_i.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1
+                on_press: video_i.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press:
+                    video_i.state = 'stop'
+                    video_i.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_i.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1  
+            on_press:
+                video_i.state = 'stop'  
+                root.manager.current = 'alphabet_menu'
+
+<VideoJScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1  
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_j
+            source: 'vid_sample_j.mp4' 
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: video_j.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: video_j.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press:
+                    video_j.state = 'stop'
+                    video_j.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_j.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1 
+            on_press:
+                video_j.state = 'stop' 
+                root.manager.current = 'alphabet_menu'
+
+<VideoKScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_k
+            source: 'vid_sample_k.mp4'  
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1 
+                on_press: video_k.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: video_k.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press:
+                    video_k.state = 'stop'
+                    video_k.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_k.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1 
+            on_press:
+                video_k.state = 'stop'  
+                root.manager.current = 'alphabet_menu'
+
+<VideoLScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1  
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_l
+            source: 'vid_sample_l.mp4'
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: video_l.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: video_l.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press:
+                    video_l.state = 'stop'
+                    video_l.position = 0  
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_l.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1 
+            on_press:
+                video_l.state = 'stop' 
+                root.manager.current = 'alphabet_menu'
+
+<VideoMScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_m
+            source: 'vid_sample_m.mp4'  
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1 
+                on_press: video_m.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: video_m.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1  
+                on_press:
+                    video_m.state = 'stop'
+                    video_m.position = 0  
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_m.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1  
+            on_press:
+                video_m.state = 'stop'  
+                root.manager.current = 'alphabet_menu'
+
+<VideoNScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_n
+            source: 'vid_sample_n.mp4'  
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: video_n.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: video_n.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press:
+                    video_n.state = 'stop'
+                    video_n.position = 0  
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_n.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1  
+            on_press:
+                video_n.state = 'stop'  
+                root.manager.current = 'alphabet_menu'
+
+<VideoOScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_o
+            source: 'vid_sample_o.mp4'  
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: video_o.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: video_o.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press:
+                    video_o.state = 'stop'
+                    video_o.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_o.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1 
+            on_press:
+                video_o.state = 'stop' 
+                root.manager.current = 'alphabet_menu'
+
+<VideoPScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_p
+            source: 'vid_sample_p.mp4' 
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: video_p.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1
+                on_press: video_p.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1  
+                on_press:
+                    video_p.state = 'stop'
+                    video_p.position = 0  
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_p.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1
+            on_press:
+                video_p.state = 'stop'  
+                root.manager.current = 'alphabet_menu'
+<VideoQScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_q
+            source: 'vid_sample_q.mp4' 
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: video_q.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1  # Red button color
+                on_press: video_q.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press:
+                    video_q.state = 'stop'
+                    video_q.position = 0  
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_q.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1 
+            on_press:
+                video_q.state = 'stop'  
+                root.manager.current = 'alphabet_menu'
+
+<VideoRScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1  
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_r
+            source: 'vid_sample_r.mp4'  
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: video_r.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: video_r.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press:
+                    video_r.state = 'stop'
+                    video_r.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_r.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1  
+            on_press:
+                video_r.state = 'stop'  
+                root.manager.current = 'alphabet_menu'
+
+<VideoSScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1  
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_s
+            source: 'vid_sample_s.mp4'  
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: video_s.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: video_s.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1
+                on_press:
+                    video_s.state = 'stop'
+                    video_s.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_s.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1 
+            on_press:
+                video_s.state = 'stop'  
+                root.manager.current = 'alphabet_menu'
+
+<VideoTScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1  
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_t
+            source: 'vid_sample_t.mp4'
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1 
+                on_press: video_t.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1  
+                on_press: video_t.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press:
+                    video_t.state = 'stop'
+                    video_t.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_t.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1 
+            on_press:
+                video_t.state = 'stop' 
+                root.manager.current = 'alphabet_menu'
+
+<VideoUScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_u
+            source: 'vid_sample_u.mp4' 
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1 
+                on_press: video_u.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: video_u.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press:
+                    video_u.state = 'stop'
+                    video_u.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_u.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1  
+            on_press:
+                video_u.state = 'stop'  
+                root.manager.current = 'alphabet_menu'
+
+<VideoVScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_v
+            source: 'vid_sample_v.mp4' 
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1  
+                on_press: video_v.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: video_v.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1
+                on_press:
+                    video_v.state = 'stop'
+                    video_v.position = 0
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_v.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1
+            on_press:
+                video_v.state = 'stop'  
+                root.manager.current = 'alphabet_menu'
+
+<VideoWScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_w
+            source: 'vid_sample_w.mp4'
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1 
+                on_press: video_w.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1
+                on_press: video_w.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1 
+                on_press:
+                    video_w.state = 'stop'
+                    video_w.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_w.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1
+            on_press:
+                video_w.state = 'stop'
+                root.manager.current = 'alphabet_menu'
+
+<VideoXScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_x
+            source: 'vid_sample_x.mp4'
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1
+                on_press: video_x.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1
+                on_press: video_x.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1
+                on_press:
+                    video_x.state = 'stop'
+                    video_x.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_x.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1
+            on_press:
+                video_x.state = 'stop'
+                root.manager.current = 'alphabet_menu'
+
+<VideoYScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_y
+            source: 'vid_sample_y.mp4'
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1
+                on_press: video_y.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1 
+                on_press: video_y.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1
+                on_press:
+                    video_y.state = 'stop'
+                    video_y.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_y.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1
+            on_press:
+                video_y.state = 'stop' 
+                root.manager.current = 'alphabet_menu'
+
+<VideoZScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Video:
+            id: video_z
+            source: 'vid_sample_z.mp4'
+            state: 'stop'
+            options: {'eos': 'loop'}
+            allow_stretch: True
+        BoxLayout:
+            size_hint_y: None
+            height: '48dp'
+            Button:
+                text: 'Play'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 0, 1, 0, 1
+                on_press: video_z.state = 'play'
+            Button:
+                text: 'Pause'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0, 0, 1  # Red button color
+                on_press: video_z.state = 'pause'
+            Button:
+                text: 'Stop'
+                size_hint: None, None
+                size: self.parent.width*0.25, '48dp'
+                background_color: 1, 0.5, 0, 1
+                on_press:
+                    video_z.state = 'stop'
+                    video_z.position = 0 
+            Slider:
+                min: 0
+                max: 1
+                value: 1
+                step: 0.01
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+                on_value: video_z.volume = self.value
+        Button:
+            text: 'Back'
+            size_hint_y: None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1
+            on_press:
+                video_z.state = 'stop'
+                root.manager.current = 'alphabet_menu'

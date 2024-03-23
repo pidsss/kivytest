@@ -1,0 +1,23 @@
+<LearningPhrases>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        canvas.before:
+            Color:
+                rgba: 0.8, 0.9, 1, 1 
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Label:
+            text: 'Choose a Phrases'
+            size_hint_y: None
+            height: '48dp'
+            font_size: '24sp'
+            color: 0, 0, 0, 1  # Black color
+        Button:
+            text: 'BACK'
+            size_hint: 1, None
+            height: '48dp'
+            background_color: 1, 0.5, 0, 1  
+            on_press: root.manager.current = 'main_menu'
